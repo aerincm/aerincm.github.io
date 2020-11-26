@@ -1,116 +1,124 @@
-<!DOCTYPE html>
-<html>
-<link href="mystyle.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Karla|Montserrat:300" rel="stylesheet">
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      body {padding-left: 16px; padding-top: 10px; padding-right: 10px;}
+      h1 {padding-top: 30px;}
+      p {padding-top: 10px; padding-right: 50px;}
+      aligned {display: flex; align-items:center;}
+      .navbar-custom { background-color: #7b9e7a; } 
+      .container { display: flex; }
+      img { max-width: 100% }
+      .image { flex-basis: 40%; padding-top: 20px; padding-right: 20px;}
+      .text { font-size: 14px;padding-left: 50px;}
+    </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<head>
-    <title> Aerin Malana </title>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-</head>
-<div class="sidenav">
-    <a href="index.html">Home</a>
-    <a class="current" href="resume.html">Resumé</a>
-    <a href="about.html">About me</a>
-    <a href="contact.html">Contact</a>
-</div>
-<div class="main">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">resumé <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">about me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contact</a>
+          </li>
+      </div>
+    </nav>
+    <title>resumé</title>
+  </head>
+  <body>
+    <div class="container">
+    <div class="image">
+    <img src="film.JPG" width="400" hspace="40" style="padding-top: 30px;" />
+    
+  </div>
 
-    <body>
-        <h1> Aerin Malana </h1>
-        <h3> Skills <hr> </h3>
-          <div class="resume-item">
-            <h4><b>Technical Skills (Programming Languages and Technologies):</b></h4>
-            <ul>
-              <li><b>Proficient in:</b> Java, Markdown, Git, C
-              <li><b>Experienced in:</b> HTML/CSS, Intellij, Eclipse
-              <li><b>Basic in:</b> Python, Javascript, React, JUnit
-            </ul>
+  <div class="text">
+      <h1>aerin malana (she/her/hers)</h1><br>
+      <h4>experience</h4><hr><br>
+      <h5>incoming software engineering intern @ apple</h5>
+      <h6>june 2021 - september 2021 | cupertino, ca</h6>
+      <li>team: aws core engineering platform team</li><br>
+      <h5>teaching assistant (cse 373 data structures and algorithms)</h5>
+      <h6>january 2021 - present | seattle, wa</h6>
+      <li>held discussion sections of ~25 students and reviewed common data structures (sets, balanced trees, avl trees, binary heaps), algorithms (graph search, asymptotic analysis, P and NP), and their applications</li>
+      <li>conducted office hours and aided student in understanding specifications, debugging assignments, and explaining concepts to wide array of audiences</li><br>
+      <h5>teaching assistant (cse 142 intro to java programming)</h5>
+      <h6>january 2020 - december 2020 | seattle, wa</h6>
+      <li>held discussion sections of ~20 students and reviewed intro java concepts such as OOP, control flow structures (conditionals/loops), and functional programming</li>
+      <li>assisted in the "intro programming lab" by aiding students in understanding specifications and providing insight on coding errors</li><br>
+      <h5>software engineering intern @ salesforce</h5>
+      <h6>june 2020 - september 2020 | san francisco, ca</h6>
+      <li>team: customer 360 data manager q3 team</li><br><br>
+      <h4>education</h4><hr><br>
+      <h5>university of washington | b.s. in computer science</h5>
+      <h6>expected graduation: june 2022 | seattle, wa</h6>
+      <li>computer science major, diversity studies minor</li>
+      <li>direct admission to the paul g. allen school of computer science and engineering</li>
+      <li><b>relevant coursework:</b> data structures, discrete math, 
+        probability/statistics for cs, software design & implementation (java/junit), systems programming (c/c++/introductory networking), 
+        computer security, database management (sql/sqlite/nosql), algorithms (upcoming), operating systems (upcoming)</li><br><br>
+        <h5>bellevue college | associate's degree</h5>
+      <h6>graduation: june 2018 | bellevue, wa</h6>
+      <li>attended as part of the running start program (high school dual enrollment program)</li>
+      <li>GPA: 3.99 (UW)</li>
+      <li>graduated with associate in arts and sciences degree (with high distinction) and high school diploma</li><br><br>
+        <h4>honors and awards</h4><hr>
+        <li><b>denice dee denton scholars endowment <a href="https://www.cs.washington.edu/students/grad/awardrecipients/denton">(2020)</a></b></li>
+        <li><b>anandam grace hopper scholarship (2019)</b></li><br><br>
 
-            <h4><b>Soft Skills:</b></h4>
-            <ul>
-              <li>Leadership and Project Management
-              <li>Communication Skills
-              <li>Detail Oriented and Respects Deadlines
-              <li>Public Speaking and Presenting
-            </ul>
-          </div>
-        <h3> Experience <hr> </h3>
-          <div class="resume-item">
-            <h4><b>Incoming Software Engineering Intern</b> // Salesforce</h4>
-            <div class="resume-text"><i>San Fransico, CA • June 2020 – September 2020</i>
-            <br><br>
-            I'll be interning with the Platform Organization Team this summer!</div>
-          </div>
-          <br>
-          <div class="resume-item">
-            <h4><b>CSE 14X Teaching Assistant</b> // Paul G. Allen School of Computer Science & Engineering</h4>
-            <div class="resume-text"><i>Seattle, WA • January 2020 – Present</i>
-            <br><br>
-            <ul>
-              <li> Held quiz sections of ~25 students and reviewed introductory Java topics, such as object-oriented programming, control flow, data structures, etc.
-              <li> Assisted in the Intro to Programming Lab by aiding students in understanding specifications and providing insight on coding errors
-              <li> Solidified communication skills and ability to explain complex topics to people of many backgrounds
-              <li> Responsibilities include teaching, weekly staff meetings, lectures, office hours, and grading assignments
-            </ul>
-          </div>
-        </div>
+        <h4>leadership</h4><hr><br>
+        <h5> chair of <a href="https://gen1.cs.washington.edu/">GEN1</a></h5>
+        <h6>january 2020 - present | seattle, wa</h6>
+      <li>GEN1 is an allen school student organization aimed at supporting and celebrating first-generation university students by providing community and resources to
+        ensure personal, academic, and professional success</li>
+      <li>leads and organizes weekly meetings, agenda creation</li>
+      <li>oversees operations for all events</li>
+      <li>coordinates onboarding, training, and 1:1 meetings with other executive officers</li><br><br>
 
-        <h3> Education <hr> </h3>
-        <div class="resume-item">
-            <h4><b>University of Washington</b> // B.S. Computer Science with Minor in Diversity Studies</h4>
-            <div class="resume-text"><i>Expected Graduation: June 2021</i>
-                <br>
-                <ul>
-                    <li><b>Relevant Coursework</b>: Data Structures & Parallel Programming, Software Design & Implementation, The Hardware/Software Interface, Discrete Logic, Probability and Statistics, Introduction to HCI, Systems Programming (Spring 2020), Computer Security (Autumn 2020), Data Management (Autumn 2020)
-                        <br>
-                        <br>
-                        <li><b>Activities</b>: ACM-W, GEN1, CSE 14X TA
-                            <br>
-                            <li><b>More Info</b>: Direct Admit to the Allen School, Dean's List
-                </ul>
-            </div>
-        </div>
+      <h5> community liasion of fasa sa uw political committee</h5>
+        <h6>november 2020 - present | seattle, wa</h6><br><br>
+
+        <h5> officer for <a href="https://acmw.cs.washington.edu/">uw acm-w</a></h5>
+        <h6>february 2019 - june 2020 | seattle, wa</h6>
+        <li>acm-w is dedicated to cultivating a strong supportive community of women within the Allen School and sparking dialogues concerning the importance and necessity of diversity in the computing world</li><br>
+        <p><b>responsibilities as vice chair (june 2019 - june 2020):</b></p>
+        <li>assigned and tracked all tasks and oversee officers’ task completion</li>
+        <li>maintained relationship with chair to ensure all club goals are accomplished</li>
+        <li>facilitated member and officer feedback, secondary contact for acm-w</li>
+        <li>acted as backup chair</li>
         <br>
-        <div class="resume-item">
-            <h4><b>Bellevue College</b> // Associate's Degree & High School Diploma</h4>
-            <div class="resume-text"><i>Graduation: June 2018</i>
-                <br>
-                <ul>
-                    <li>Participated in the Running Start Program, a high school dual enrollment program
-                        <li>Graduated with Associate in Arts and Sciences Degree (with High Distinction) and High School Diploma
-                            <li>GPA: 3.97 (UW)
-                </ul>
-            </div>
-        </div>
-        <h3> Projects <hr> </h3>
-          <div class="resume-item">
-            <h4><b>stud-e</b></h4>
-            <div class="resume-text"><i>Project Date: January 2020 - March 2020</i>
-              <br>
-              <br>
-              <a href="https://courses.cs.washington.edu/courses/cse440/20wi/projects/stude/" target="_blank"><b>stud-e</b></a> is a personalized study assistant that records and analyzes student productivity information from previous
-              study sessions and learns from that data to help users optimize study time and promote good study habits.<br><br>
-              Completed in CSE 440 (Introduction to Human-Computer Interaction) in a group of four. Through the duration of this project,
-              our team implemented the <i>iterative design process</i> to try and find a way to optimize study time, given this age of
-              personal technology and the distractions that come with it. We participated in design research (user interviews), task design,
-              storyboarding, paper prototyping, and digital prototyping. <br><br>
+        <p><b>responsibilities as associate officer (february 2019 - june 2019):</b></p>
+        <li>aided executive officers in completing club-related tasks</li>
+        <li>documented club events and shared them on the uw acm-w blog</li>
+        <li>co-organized end-of-the-year community social event</li>
 
-            </div>
-          </div>
-          <br>
-          <div class="resume-item">
-            <h4><b>Z-tionary</b></h4>
-            <div class="resume-text"><i>Project Date: October 2019</i>
-              <br>
-              <br>
-              <a href="https://genzdictionary.firebaseapp.com/" target="_blank"><b>Z-tionary</b></a> is a web application that takes text input  (i.e. a phrase or sentence) and outputs a "translation" with all the identified
-              Generation Z slang replaced with more easily understandable synonyms. Implemented in a team of four as part of DubHacks 2019. Used <i>Firebase</i> to host website and store database that maps Gen Z slang keys to dictionary
-              English values. Backend developed in Java with frontend developed in HTML5/CSS.
-            </div>
-          </div>
+        <br><br>
+      </div>
+  </div>
+  </div>
+  
+    <!-- Optional JavaScript; choose one of the two! -->
 
-      <a href="2019-2020 Aerin Malana Resumé.pdf" target="_blank" download><h5>PDF Version of Resumé</h5></a>
-    </body>
-</div>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
