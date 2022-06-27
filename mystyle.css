@@ -84,12 +84,12 @@ p {
   color: #000000;
 }
 .sidenav .current {
-  background-color: #6d2929;
+  background-color: #B785B7;
   width: 170px;
 }
 
 table {
-  background-color: #C8A2C8;
+  background-color: #E3C1E3;
   display: flex;
   justify-content: center;
   text-align: center;
