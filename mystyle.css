@@ -1,5 +1,5 @@
 html {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 body {
   background-color: white;
@@ -9,11 +9,9 @@ h1 {
   font-size: 45px;
   text-align: center;
   letter-spacing: 3px;
-  color: #dea5a4;
-  text-transform: uppercase;
+  color: #b8586d;
   padding-top: 10px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bolder;
+  font-family: 'Georgia', serif;
 }
 
 h2 {
@@ -56,13 +54,13 @@ p {
   padding: 0px 50px;
 }
 .circle-icon {
-    background: #dea5a4;
+    background: #d4a1c1;
     padding: 15px;
     border-radius: 50%;
 }
 
 .sidenav {
-  background-color: black;
+  background-color: rgb(92, 21, 174);
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 170px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
@@ -83,15 +81,15 @@ p {
   text-transform: uppercase;
 }
 .sidenav a:hover {
-  color: #dea5a4;
+  color: #000000;
 }
 .sidenav .current {
-  background-color: #dea5a4;
+  background-color: #6d2929;
   width: 170px;
 }
 
 table {
-  background-color: #dea5a4;
+  background-color: #C8A2C8;
   display: flex;
   justify-content: center;
   text-align: center;
