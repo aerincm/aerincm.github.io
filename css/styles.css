@@ -33,7 +33,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: rgb(205, 124, 124);
+  --bs-primary: #E3C1E3;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -41,8 +41,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 181, 105, 91;
-  --bs-secondary-rgb: 108, 117, 125;
+  --bs-primary-rgb: 183, 133, 183;
+  --bs-secondary-rgb: 183, 133, 183;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -112,7 +112,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.5rem + 5.7vw);
+  font-size: calc(1.2rem + 5.7vw);
   text-transform: lowercase;
 }
 @media (min-width: 1200px) {
@@ -239,11 +239,11 @@ sup {
 }
 
 a {
-  color: #b35c57;
+  color: #E3C1E3;
   text-decoration: underline;
 }
 a:hover {
-  color: #78312e;
+  color: #B785B7;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -2219,7 +2219,7 @@ progress {
 .form-control:focus {
   color: #212529;
   background-color: #fff;
-  border-color: #deae9c;
+  border-color: #E3C1E3;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(189, 93, 56, 0.25);
 }
@@ -2434,7 +2434,7 @@ textarea.form-control-lg {
   }
 }
 .form-select:focus {
-  border-color: #deae9c;
+  border-color: #E3C1E3;
   outline: 0;
   box-shadow: 0 0 0 0.25rem rgba(189, 93, 56, 0.25);
 }
@@ -2508,8 +2508,8 @@ textarea.form-control-lg {
   box-shadow: 0 0 0 0.25rem rgba(189, 93, 56, 0.25);
 }
 .form-check-input:checked {
-  background-color: #bd6a6f;
-  border-color: #bd5d38;
+  background-color: #E3C1E3;
+  border-color: #B785B7;
 }
 .form-check-input:checked[type=checkbox] {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
@@ -3955,7 +3955,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #974a2d;
+  color: #B785B7;
 }
 .nav-link.disabled {
   color: #6c757d;
